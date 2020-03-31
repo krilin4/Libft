@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ft_memset.c" />
+    <ClCompile Include="main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Librerias">
+      <UniqueIdentifier>{80123dec-a9d9-4049-9e9b-75de7b381f94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libft.h">
+      <Filter>Librerias</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
