@@ -75,6 +75,7 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
+    <ClCompile Include="ft_bzero.c" />
     <ClCompile Include="ft_memset.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>

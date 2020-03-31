@@ -8,19 +8,22 @@ void *memset(void *s, int c, size_t n);
  c  --> Valor que vamos a escribir en cada byte
  n --> Espacio que vamos a escribir
 */
+#include "libft.h"
 
-
-char* ft_memset(char* s, char c, int n)
+void* ft_memset(void* s, int c, size_t n)
 {
+    char* ptr;
     int i;
+
+    ptr = (char*)s;//Convertimos el void* a char*
 
     i = 0;
     if (n < 0)
         return (0);
     while (i < n)
     {
-        s[i] = c;
+        ptr[i] = (unsigned char)c; //Le hacemos un casting porque en realidad es 1 byte, lo que vamos a ir introduciendo
         i++;
     }
-    return s;
+    return (s);
 }

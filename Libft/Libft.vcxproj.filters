@@ -3,6 +3,7 @@
   <ItemGroup>
     <ClCompile Include="ft_memset.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="ft_bzero.c" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Librerias">
