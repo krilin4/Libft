@@ -13,7 +13,7 @@ void *memset(void *s, int c, size_t n);
 void* ft_memset(void* s, int c, size_t n)
 {
     char* ptr;
-    int i;
+    size_t i;
 
     ptr = (char*)s;//Convertimos el void* a char*
 

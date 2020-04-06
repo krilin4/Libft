@@ -11,7 +11,7 @@ int main(int argc, char argv[])
 	int tamanio;
 	int i;
 
-	printf("Bienvenido al programa principal para testear la funcion ft_memset");
+	printf("Bienvenido al programa principal para testear la funcion ft_memset\n");
 	/*Funcion ft_memset Fer*/
 	letra = 'A';
 	tamanio = 20;
@@ -42,7 +42,7 @@ int main(int argc, char argv[])
 
 
 
-	printf("Bienvenido al programa principal para testear la funcion bzero");
+	printf("Bienvenido al programa principal para testear la funcion bzero\n");
 	ptr_test = malloc(tamanio);
 	letra = 'A';
 	ptr_salida = (char*)ft_memset(ptr_test, letra, tamanio);
@@ -51,5 +51,27 @@ int main(int argc, char argv[])
 	letra = 'B';
 	ptr_salida = (char*)ft_memset(ptr_test, letra, tamanio);
 	bzero(ptr_test, tamanio);
+
+
+
+
+	printf("Bienvenido al programa principal para testear la funcion memcopy\n");
+	tamanio = 18; //Ponemos un valor negativo para ver que ocurre
+
+	char ptr_src[25] = "HolA mamasita como estas?";
+	char ptr_dst[25];
+	int letra_memccpy;
+
+	letra_memccpy = 116;//'t'
+	ptr_salida = (char*)memccpy(ptr_dst, ptr_src, letra_memccpy, tamanio);
+	ptr_salida = (char*)ft_memcpy(ptr_dst, ptr_src, tamanio);
+
+
+	letra_memccpy = 65;//'A'
+	ptr_salida = (char*)ft_memccpy(ptr_dst, ptr_src, letra_memccpy, tamanio);
+	ptr_salida = (char*)ft_memcpy(ptr_dst, ptr_src, tamanio);
+
+
+
 	return (0);
 }

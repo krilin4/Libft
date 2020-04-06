@@ -4,6 +4,8 @@
     <ClCompile Include="ft_memset.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="ft_bzero.c" />
+    <ClCompile Include="ft_memcpy.c" />
+    <ClCompile Include="ft_memccpy.c" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Librerias">
