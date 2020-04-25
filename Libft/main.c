@@ -71,6 +71,8 @@ int main(int argc, char argv[])
 	ptr_salida = (char*)ft_memccpy(ptr_dst, ptr_src, letra_memccpy, tamanio);
 	ptr_salida = (char*)ft_memcpy(ptr_dst, ptr_src, tamanio);
 
+    /*Probamos el ft_memmove*/
+    void *ft_memmove(void *dest, const void *src, size_t n)
 
 
 	return (0);

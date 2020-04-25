@@ -75,14 +75,53 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
+    <ClCompile Include="ft_atoi.c" />
     <ClCompile Include="ft_bzero.c" />
+    <ClCompile Include="ft_calloc.c" />
+    <ClCompile Include="ft_isalnum.c" />
+    <ClCompile Include="ft_isalpha.c" />
+    <ClCompile Include="ft_isascii.c" />
+    <ClCompile Include="ft_isdigit.c" />
+    <ClCompile Include="ft_isprint.c" />
+    <ClCompile Include="ft_itoa.c" />
+    <ClCompile Include="ft_lstadd_back.c" />
+    <ClCompile Include="ft_lstadd_front.c" />
+    <ClCompile Include="ft_lstdelone.c" />
+    <ClCompile Include="ft_lstlast.c" />
+    <ClCompile Include="ft_lstnew.c" />
+    <ClCompile Include="ft_lstsize.c" />
     <ClCompile Include="ft_memccpy.c" />
+    <ClCompile Include="ft_memchr.c" />
+    <ClCompile Include="ft_memcmp.c" />
     <ClCompile Include="ft_memcpy.c" />
+    <ClCompile Include="ft_memmove.c" />
     <ClCompile Include="ft_memset.c" />
+    <ClCompile Include="ft_putchar_fd.c" />
+    <ClCompile Include="ft_putendl_fd.c" />
+    <ClCompile Include="ft_putnbr_fd.c" />
+    <ClCompile Include="ft_putstr_fd.c" />
+    <ClCompile Include="ft_split.c" />
+    <ClCompile Include="ft_strchr.c" />
+    <ClCompile Include="ft_strdup.c" />
+    <ClCompile Include="ft_strjoin.c" />
+    <ClCompile Include="ft_strlcat.c" />
+    <ClCompile Include="ft_strlcpy.c" />
+    <ClCompile Include="ft_strlen.c" />
+    <ClCompile Include="ft_strmapi.c" />
+    <ClCompile Include="ft_strncmp.c" />
+    <ClCompile Include="ft_strnstr.c" />
+    <ClCompile Include="ft_strrchr.c" />
+    <ClCompile Include="ft_strtrim.c" />
+    <ClCompile Include="ft_substr.c" />
+    <ClCompile Include="ft_tolower.c" />
+    <ClCompile Include="ft_toupper.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="libft.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

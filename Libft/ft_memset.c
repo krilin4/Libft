@@ -18,8 +18,6 @@ void* ft_memset(void* s, int c, size_t n)
     ptr = (char*)s;//Convertimos el void* a char*
 
     i = 0;
-    if (n < 0)
-        return (0);
     while (i < n)
     {
         ptr[i] = (unsigned char)c; //Le hacemos un casting porque en realidad es 1 byte, lo que vamos a ir introduciendo
