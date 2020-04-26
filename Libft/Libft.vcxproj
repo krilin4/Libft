@@ -86,8 +86,11 @@
     <ClCompile Include="ft_itoa.c" />
     <ClCompile Include="ft_lstadd_back.c" />
     <ClCompile Include="ft_lstadd_front.c" />
+    <ClCompile Include="ft_lstclear.c" />
     <ClCompile Include="ft_lstdelone.c" />
+    <ClCompile Include="ft_lstiter.c" />
     <ClCompile Include="ft_lstlast.c" />
+    <ClCompile Include="ft_lstmap.c" />
     <ClCompile Include="ft_lstnew.c" />
     <ClCompile Include="ft_lstsize.c" />
     <ClCompile Include="ft_memccpy.c" />

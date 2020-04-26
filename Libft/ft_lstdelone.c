@@ -18,6 +18,7 @@ free
 Descripción 
 Libera la memoria del elemento pasado como argumento utilizando la función ’del’ y después free(3). 
 No se debe liberar la memoria de ’next’.
+Vamos que llama a la funcion dell y le pasamos lst->content y luego libremos memoria de el puntero lst;
 
 La descripción de los campos de la estructura t_list es la siguiente:
 • content: El dato contenido en el nodo. El void * permite almacenar un dato de cualquier tipo. 
@@ -28,5 +29,9 @@ La descripción de los campos de la estructura t_list es la siguiente:
 
 void ft_lstdelone(t_list *lst, void (*del)(void *))
 {
-
+    if (lst && (*del))
+    {
+        (*del)(lst->content);
+        free(lst);
+    }
 }

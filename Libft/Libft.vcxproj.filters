@@ -42,6 +42,9 @@
     <ClCompile Include="ft_substr.c" />
     <ClCompile Include="ft_tolower.c" />
     <ClCompile Include="ft_toupper.c" />
+    <ClCompile Include="ft_lstclear.c" />
+    <ClCompile Include="ft_lstiter.c" />
+    <ClCompile Include="ft_lstmap.c" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Librerias">
